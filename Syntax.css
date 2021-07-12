@@ -1,0 +1,111 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana,sans-serif;
+}
+/* for whole page */
+#page{
+    position: relative;
+
+}
+/* to make it to stick on the top*/
+#stick{
+    position: sticky;
+    top: 0px;
+}
+
+#lang span:hover{
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+/* what are the languages */
+#lang{
+    background-color: rgb(56, 54, 54);
+    color:white;
+    top: 1px;
+    word-spacing: 50px;
+    padding: 5px;
+
+}
+#lang span{
+    padding: 5px;
+}
+#CSS{
+    margin-top: 0px;
+    background-color: rgb(224, 226, 221);
+    margin-bottom: 0px;
+    color: green;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+/* navigation bar */
+.sub-heading {
+    width: 15%;
+    height: 100vh;
+    overflow: scroll;
+    top: 28px;
+    float: left;
+}
+
+.sub-heading a{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(224, 226, 221);
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: rgb(70, 68, 68);
+}
+#helight{
+    background-color: #04AA6D;
+}
+
+.sub-heading a:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.sub-heading a:active{
+    background-color: #04AA6D
+}
+ /* main page content */
+#main-page{
+    margin-left: 15%;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 60%;
+    border-right:1px solid gray;
+    height: 200vh;
+}
+.Introduction-heading{
+    font-size: 42px;
+    color: rgb(34, 31, 31);
+}
+.Goto-Home-page{
+    float: left;
+    background-color: #04AA6D;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.Goto-Next-page{
+    background: border-box;
+    float: right;
+    background-color: #04AA6D;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.para{
+    font-size: 32px;
+}
+#main-page li{
+    margin-bottom: 10px;
+}
+#main-page hr{
+    border-top: rgb(224, 226, 221);
+}
+.para1{
+    line-height: 25px;
+}
